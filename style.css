@@ -107,7 +107,7 @@ font-size: 65px;
 .readMore:hover::before{
     width: 100%;
 }
-.fbox{
+.box{
     display: flex;
     border: 1px solid white;
     border-radius: 20px;
@@ -116,23 +116,29 @@ font-size: 65px;
     flex-direction: column;
     gap: 10px;
     color: white;
-}
-.sbox{
-    display: flex;
-    border: 1px solid white;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    flex-direction: column;
-    gap: 10px;
-    color: white;
+    justify-content: center;
+    width: 210px;
+    padding: 10px 20px;
 }
 .bigbox{
     display: flex;
     flex-direction: row;
-    width: 200px;
+    width: 600px;
     height: 140px;
+    gap: 10px;
+
 }
 .bigbox p:nth-of-type(1){
     font-size: 20px;
+}
+.tbox{
+    display: flex;
+    width: 430px;
+    height: 140px;
+    border: 1px solid white;
+    border-radius: 20px;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
 }
